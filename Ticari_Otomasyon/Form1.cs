@@ -23,11 +23,17 @@ namespace Ticari_Otomasyon
         {
             if(fr==null)
             {
+
                 fr = new FrmUrunler();
                 fr.MdiParent = this;
                 fr.Show();
             }
             
+        }
+
+        private void btnStoklar_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+
         }
     }
 }
